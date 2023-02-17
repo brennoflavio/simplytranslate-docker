@@ -1,0 +1,8 @@
+services:
+  simplytranslate:
+    container_name: simplytranslate
+    build: .
+    restart: always
+    ports:
+      - "8094:5000"
+
